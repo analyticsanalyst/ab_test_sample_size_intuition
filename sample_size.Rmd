@@ -18,7 +18,7 @@ library(tidyverse)
 - Business stakeholders are often keen to understand why a test will take X amount of time or require Y sample size.
 - We can use data visualizations to highlight how sample size requirements shift as experiment statistics vary.
 - For this analysis, we assume the A/B test target metric is a proportion or rate.
-- Having an intuitive grasp on the below concepts helps when discussing with business leaders live.
+- Having an intuitive grasp on the below concepts helps when fielding questions live with business leaders.
 
 # Per test group, sample size requirement for different minimum detectable effects 
 - Hold power constant at 80%
@@ -60,7 +60,7 @@ we aim to detect small metric changes
       theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
 ```
 
-# Per group, sample size requirement for different signifcance levels
+# Per group, sample size requirement for different significance levels
 - Hold power constant at 80%
 - Hold minimum detectable effect at 5%
 - Hold baseline action rate at 50%
