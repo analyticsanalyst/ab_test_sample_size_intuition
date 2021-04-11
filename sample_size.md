@@ -19,8 +19,8 @@ library(tidyverse)
     requirements shift as experiment statistics vary.
   - For this analysis, we assume the A/B test target metric is a
     proportion or rate.
-  - Having an intuitive grasp on the below concepts helps when
-    discussing with business leaders live.
+  - Having an intuitive grasp on the below concepts helps when fielding
+    questions live with business leaders.
 
 # Per test group, sample size requirement for different minimum detectable effects
 
@@ -67,7 +67,7 @@ we aim to detect small metric changes
 
 ![](sample_size_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
-# Per group, sample size requirement for different signifcance levels
+# Per group, sample size requirement for different significance levels
 
   - Hold power constant at 80%
   - Hold minimum detectable effect at 5%
