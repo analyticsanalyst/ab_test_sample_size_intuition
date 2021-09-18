@@ -13,18 +13,18 @@ library(tidyverse)
 ```
 
 # Overview
-- For traditional A/B test methods, it's best practice to decide on sample size in advance.
+- For traditional A/B test methods, it’s best practice to decide on sample size in advance.
 - We launch the experiment and assess results once the target sample size is achieved.
 - Business stakeholders are often keen to understand why a test will take X amount of time or require Y sample size.
 - We can use data visualizations to highlight how sample size requirements shift as experiment statistics vary.
 - For this analysis, we assume the A/B test target metric is a proportion or rate.
 - Having an intuitive grasp on the below concepts helps when fielding questions live with business leaders.
 
-# Per test group, sample size requirement for different minimum detectable effects 
+# Per test group, sample size requirement for different minimum detectable effects
 - Hold power constant at 80%
 - Hold significance level constant at 5%
 - Hold baseline action rate at 50%
-- Vary minimum detectable effects 
+- Vary minimum detectable effects
 
 ```{r}
 mde_df <- expand_grid(power = 0.8,
